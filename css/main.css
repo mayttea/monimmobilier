@@ -1,0 +1,163 @@
+body {
+  padding-top: 10px;
+  background-color: #f5f5f5;
+}
+.container{
+	background-color: #fff;
+}
+/* ============= logo de la page d'accueil*/
+h1 a{
+    width:190px;
+    height:90px;
+    display:block;
+    text-indent:-9999px;
+    background:url(../logos/monimmobilier.jpg) no-repeat;
+    margin-top:-10px;
+    margin-right: 20px;
+    border: none
+}
+/* fin logo*/
+
+
+/* Début Silder */
+#monCarousel{
+    width:100%;
+    max-height: 373px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+
+}
+.carousel-inner{
+/*    height:1000px;*/
+}
+.imgheg{
+    width: 100%;
+    height: 400px;
+}
+
+.slide1{
+    text-align: center;
+    max-height: 550px;
+    margin-bottom: 0px;
+    padding: 7em;
+    background: url(http://photos.duproprio.com/autre-condo-a-vendre-montreal-centre-ville-ville-marie-quebec-province-large-3372236.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    color: white
+}
+.slide2{
+    background: url("http://www.mondedestars.com/wp-content/uploads/2014/03/m27668251-aer02-01.jpg") no-repeat center center fixed;
+/*    background: url(http://accoursosecours.ca/images/Photos_formations/Sur_mesure_mp_l.jpg) no-repeat center center fixed;*/
+
+}
+.slide3{
+    background: url("http://condosvesta.com/images/gallery/VECO130001_VI_ch01_v00.jpg") no-repeat center center fixed;
+/*    background: url(http://15greenleaves.com/wp-content/uploads/2013/01/Green-objects-green-22232426-1280-1024.jpg) no-repeat center center fixed;*/
+
+}
+/* Fin Slider*/
+
+
+/*==========================  entete */
+.align-img{
+
+	/*float: right;*/
+	width:40px;
+	height: 40px;
+	padding-right: 0px;
+}
+
+h5{
+	clear: both;
+	padding-top: 10px;
+	padding-left: 0px;
+
+}
+.text-agence{
+	font-size: 20px;
+	color: #5A5E6B; 
+
+}
+.text-center>ul{
+	
+	margin-left: 5%;
+
+}
+
+.text-center> ul > li {
+	border: solid 2px #f96835;
+	-moz-border-radius: 10px 10px 0 0; 
+   -webkit-border-radius: 10px 10px 0 0; 
+   border-radius: 10px 10px 0 0;        
+   -webkit-border-top-left-radius: 10px; /* pour Chrome */ 
+   -webkit-border-top-right-radius: 10px; /* pour Chrome */ 
+
+}
+
+
+
+
+
+/* Les images*/
+.icone{
+	height: 30px;
+	width: 30px;
+}
+.ajouterannonce{
+		background-color: #f96835;
+	   -moz-border-radius: 10px 10px 10px 10px; 
+	   -webkit-border-radius: 10px 10px 10px 10px; 
+	   border-radius: 10px 10px 10px 10px;        
+	   -webkit-border-top-left-radius: 10px; /* pour Chrome */ 
+	   -webkit-border-top-right-radius: 10px; /* pour Chrome */ 
+	   
+	   
+}
+p > a {
+  color: #fff;
+  font-size: 16px;
+}
+/**=========== Page modifer annonce */
+.wellBlanc{
+	background-color: #FFF;
+}
+.titreAnnonce{	
+	text-align: center;
+	color:#f96835;
+	font-size: 16px;
+	font-style: italic;
+}
+.modifInput{
+	float: right;
+}
+small{
+	font-size: 10px;
+}
+.wellForm {
+	background-color:#f5f5f5;
+	border:1px solid #f96835;
+
+}
+
+input[type=checkbox] {
+	margin-right: 30px;
+	border: 1px solid #bbb; 
+}
+
+
+.louer{
+	padding-top: 10px;
+}
+/*reference */
+.rouge{
+	background-color: red;
+}
+.vert{
+	background-color: green;
+}
+.jaune{
+	background-color: yellow;
+}
+
