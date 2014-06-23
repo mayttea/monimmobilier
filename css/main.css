@@ -1,163 +1,533 @@
+/**
+ * CSS main.css 
+ * Les styles personnalisés pour monimmobilier.ca
+ * @author Mehdi Ghazisaeedi
+ * @version 1.0
+ * @update 2014-06-15
+ */
+
+/* ==========================================================================
+   body
+   ========================================================================== */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
 body {
-  padding-top: 10px;
-  background-color: #f5f5f5;
+    color: #4C4A4A;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-bottom: 60px;
 }
-.container{
-	background-color: #fff;
+.domain {
+    color:#ED2A7B;
 }
-/* ============= logo de la page d'accueil*/
-h1 a{
-    width:190px;
-    height:90px;
-    display:block;
-    text-indent:-9999px;
-    background:url(../logos/monimmobilier.jpg) no-repeat;
-    margin-top:-10px;
-    margin-right: 20px;
-    border: none
-}
-/* fin logo*/
-
-
-/* Début Silder */
-#monCarousel{
-    width:100%;
-    max-height: 373px;
-    margin-bottom: 30px;
-    margin-top: 0px;
-
-}
-.carousel-inner{
-/*    height:1000px;*/
-}
-.imgheg{
-    width: 100%;
-    height: 400px;
+.brand {
+    padding: 10px 0px;
+    color: #141e32;
 }
 
-.slide1{
+/* ==========================================================================
+   #resultat
+   ========================================================================== */
+
+#resultat > div > div {
+    background-color: #CCCCCC;
+    padding: 10px;
+}
+.panel-resultat > .panel-body {
+    background-color: #E7E7E7;
+}
+.panel-resultat > .panel-body:hover {
+    background-color: #141e32;
+}
+.panel-resultat > .panel-body > p {
     text-align: center;
-    max-height: 550px;
-    margin-bottom: 0px;
-    padding: 7em;
-    background: url(http://photos.duproprio.com/autre-condo-a-vendre-montreal-centre-ville-ville-marie-quebec-province-large-3372236.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    color: white
-}
-.slide2{
-    background: url("http://www.mondedestars.com/wp-content/uploads/2014/03/m27668251-aer02-01.jpg") no-repeat center center fixed;
-/*    background: url(http://accoursosecours.ca/images/Photos_formations/Sur_mesure_mp_l.jpg) no-repeat center center fixed;*/
-
-}
-.slide3{
-    background: url("http://condosvesta.com/images/gallery/VECO130001_VI_ch01_v00.jpg") no-repeat center center fixed;
-/*    background: url(http://15greenleaves.com/wp-content/uploads/2013/01/Green-objects-green-22232426-1280-1024.jpg) no-repeat center center fixed;*/
-
-}
-/* Fin Slider*/
-
-
-/*==========================  entete */
-.align-img{
-
-	/*float: right;*/
-	width:40px;
-	height: 40px;
-	padding-right: 0px;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
 }
 
-h5{
-	clear: both;
-	padding-top: 10px;
-	padding-left: 0px;
-
+/*panel-resultat*/
+.panel-resultat {
+    border-color: #141e32;
 }
-.text-agence{
-	font-size: 20px;
-	color: #5A5E6B; 
-
+.panel-resultat > .panel-heading {
+    background-image: linear-gradient(to bottom, #141e32 0px, #141e32 100%);
+    background-repeat: repeat-x;
+    background-color: #141e32;
+    border-bottom-color: #141e32;
+    border-top-color: #141e32;
+    color: #FFFFFF;
 }
-.text-center>ul{
-	
-	margin-left: 5%;
-
+.panel-adresseL1 {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-
-.text-center> ul > li {
-	border: solid 2px #f96835;
-	-moz-border-radius: 10px 10px 0 0; 
-   -webkit-border-radius: 10px 10px 0 0; 
-   border-radius: 10px 10px 0 0;        
-   -webkit-border-top-left-radius: 10px; /* pour Chrome */ 
-   -webkit-border-top-right-radius: 10px; /* pour Chrome */ 
-
+.panel-adresseL2 {
+    color: #ED2A7B;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-
-
-
-
-
-/* Les images*/
-.icone{
-	height: 30px;
-	width: 30px;
+.panel-resultat > .panel-body > a > img{
+    width: 100%;
+    padding-bottom: 10px;
 }
-.ajouterannonce{
-		background-color: #f96835;
-	   -moz-border-radius: 10px 10px 10px 10px; 
-	   -webkit-border-radius: 10px 10px 10px 10px; 
-	   border-radius: 10px 10px 10px 10px;        
-	   -webkit-border-top-left-radius: 10px; /* pour Chrome */ 
-	   -webkit-border-top-right-radius: 10px; /* pour Chrome */ 
-	   
-	   
+#wc{
+    padding: 0px 5px 0px 80px;
 }
-p > a {
-  color: #fff;
-  font-size: 16px;
+#lit{
+    padding: 0px 5px 0px 10px;
 }
-/**=========== Page modifer annonce */
-.wellBlanc{
-	background-color: #FFF;
+#page {
+    text-align: center;
 }
-.titreAnnonce{	
-	text-align: center;
-	color:#f96835;
-	font-size: 16px;
-	font-style: italic;
+.pagination > li > a, .pagination > li > span {
+    color: #141e32;
 }
-.modifInput{
-	float: right;
+.pagination > li > a:hover, .pagination > li > span:hover {
+    color: #ED2A7B;
 }
-small{
-	font-size: 10px;
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #ED2A7B;
+    border-bottom-color: #ED2A7B;
+    border-top-color: #ED2A7B;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
 }
-.wellForm {
-	background-color:#f5f5f5;
-	border:1px solid #f96835;
-
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    border-left-color: #ED2A7B;
+    border-right-color: #ED2A7B;
 }
 
-input[type=checkbox] {
-	margin-right: 30px;
-	border: 1px solid #bbb; 
+/* ==========================================================================
+   #details
+   ========================================================================== */
+
+.detailsHeader{
+    background-color: #141e32;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #E6E7E8;
+    padding: 20px;
+}
+.p16 {
+    font-size: 16pt;
+}
+.p14 {
+    font-size: 14pt;
+}
+.p12 {
+    font-size: 12pt;
+}
+.detailsHeader img {
+    padding: 0px 5px;
+}
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    .inv {
+        display: none;
+    }
+}
+.detailsBody{
+    background-color: #CCCCCC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px 10px;
+}
+.detailsBody h1{
+    text-align: center;
+    padding: 10px 0px;
+    color: #141e32;
+}
+.sidebar{
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sidebar > article {
+    padding: 10px 0px;
+}
+.tab-content {
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    height: 350px;
+}
+
+.nav-tabs a {
+    color: #4C4A4A;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #ED2A7B;
+}
+.tab-content article > p {
+    padding: 25px;
+}
+/*panel-courtier*/
+.panel-courtier {
+    border-color: #fa3065;
+}
+.panel-courtier > .panel-heading {
+    background-image: linear-gradient(to bottom, #fa3065 0px, #f45c84 100%);
+    background-repeat: repeat-x;
+    background-color: #fa3065;
+    border-bottom-color: #fa3065;
+    border-top-color: #fa3065;
+    color: #FFFFFF;
+}
+.panel-courtier img {
+    padding-right: 25px;
+    width: 150px;
+}
+/*panel-similaires*/
+.panel-similaires {
+    border-color: #00BCC7;
+}
+.panel-similaires > .panel-heading {
+    background-image: linear-gradient(to bottom, #00BCC7 0px, #1FE8FF 100%);
+    background-repeat: repeat-x;
+    background-color: #00BCC7;
+    border-bottom-color: #00BCC7;
+    border-top-color: #00BCC7;
+    color: #FFFFFF;
+}
+.panel-similaires img {
+    padding-right: 25px;
+    padding-bottom: 25px;
+    width: 150px;
+}
+
+/* ==========================================================================
+   #Les panneaux
+   ========================================================================== */
+.panneaux {
+    padding: 5px 0px 0px 0px;
+}
+.panel:hover > .panel-heading {
+    cursor: pointer;
+}
+.panel-body {
+    background-color: #FFFFFF;
+}
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    .panel-acheter > .panel-body {
+        display: none;
+    }
+    .panel:hover .panel-body {
+        display: block;
+    }
+}
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    .panel-vendre > .panel-body {
+        display: none;
+    }
+    .panel:hover .panel-body {
+        display: block;
+    }
+}
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    .panel-apropos > .panel-body {
+        display: none;
+    }
+    .panel:hover .panel-body {
+        display: block;
+    }
+}
+.panel-body > ul {
+    list-style: none;
+}
+.panel-acheter > .panel-body:hover, .panel-vendre > .panel-body:hover, .panel-apropos > .panel-body:hover {
+    background-color: #141e32;
+    color: #7D7B7B;
+}
+.panel-body > ul > li > a:link {
+    text-decoration: none;
+    color: inherit;
+}
+.panel-body > ul > li > a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.panel-body > ul > li > a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.panel-body > ul > li > a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.panel-acheter > .panel-body > ul:hover, .panel-vendre > .panel-body > ul:hover, .panel-apropos > .panel-body > ul:hover {
+    background-color: #141e32;
+}
+
+/*panel-acheter*/
+.panel-acheter {
+    border-color: #fa3065;
+}
+.panel-acheter > .panel-heading {
+    background-image: linear-gradient(to bottom, #fa3065 0px, #f45c84 100%);
+    background-repeat: repeat-x;
+    background-color: #fa3065;
+    border-bottom-color: #fa3065;
+    border-top-color: #fa3065;
+    color: #FFFFFF;
+}
+.panel-acheter > .panel-body > ul > li:before {
+    font-family: 'FontAwesome';
+    content: '\f138';
+    margin: 0 5px 0 -20px;
+    color: #fa3065;
+}
+
+/*panel-vendre*/
+.panel-vendre {
+    border-color: #00BCC7;
+}
+.panel-vendre > .panel-heading {
+    background-image: linear-gradient(to bottom, #00BCC7 0px, #1FE8FF 100%);
+    background-repeat: repeat-x;
+    background-color: #00BCC7;
+    border-bottom-color: #00BCC7;
+    border-top-color: #00BCC7;
+    color: #FFFFFF;
+}
+.panel-vendre > .panel-body > ul > li:before {
+    font-family: 'FontAwesome';
+    content: '\f138';
+    margin: 0 5px 0 -20px;
+    color: #00BCC7;
+}
+
+/*panel-apropos*/
+.panel-apropos {
+    border-color: #888888;
+}
+.panel-apropos > .panel-heading {
+    background-image: linear-gradient(to bottom, #888888 0px, #CCCCCC 100%);
+    background-repeat: repeat-x;
+    background-color: #888888;
+    border-bottom-color: #888888;
+    border-top-color: #888888;
+    color: #FFFFFF;
+}
+.panel-apropos > .panel-body > ul > li:before {
+    font-family: 'FontAwesome';
+    content: '\f138';
+    margin: 0 5px 0 -20px;
+    color: #888888;
+}
+/* ==========================================================================
+   article
+   ========================================================================== */
+#monimmobilierLogo {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+/* ==========================================================================
+   asid
+   ========================================================================== */
+.list-group-item > div > div > a {
+    line-height: 60px;
+    color: #4C4C4C;
+}
+
+.date{
+    font-size: 30pt;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.mois{
+    padding: 0px 0px 0px 10px;
 }
 
 
-.louer{
-	padding-top: 10px;
+/* ==========================================================================
+   #carousel
+   ========================================================================== */
+/*Source: http://webdesign.tutsplus.com/articles/twitter-bootstrap-101-the-carousel--webdesign-7442*/
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    #carrouselPhotos {
+        display: none;
+    }
 }
-/*reference */
-.rouge{
-	background-color: red;
+.carousel-caption {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #141e32;
+    /*Fall back*/
+    background-color: rgba(11, 21, 31, 0.75);
+    /*Changer pour blue*/
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
 }
-.vert{
-	background-color: green;
+.carousel-control {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #222222;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 100;
+    height: 40px;
+    line-height: 30px;
+    margin-top: -20px;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    /*hauteur de la flèche*/
+    width: 40px;
 }
-.jaune{
-	background-color: yellow;
+.carousel-control:hover {
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #FFFFFF;
+    opacity: 0.9;
 }
 
+/* ==========================================================================
+   #recherche
+   ========================================================================== */
+
+ #recherche {
+    padding: 10px 0px;
+    background-color: #141e32;
+    color: #7D7B7B;
+}
+#lancerRecherche {
+    margin: 10px 0px;
+}
+/* ==========================================================================
+   button
+   ========================================================================== */
+
+.btn-default {
+    color: #FFFFFF;
+    text-shadow: none;
+    /* Prevent inheritence from `body` */
+    background-color: #00BCC7;
+    /*Cyan forte*/
+    border: 1px solid #00BCC7;
+}
+.btn-default:hover,
+.btn-default:focus {
+    color: #141e32;
+    outline: none;
+    text-shadow: none;
+    background-color: #1FE8FF;
+    /*Cyan vivid*/
+    border: 1px solid #1FE8FF;
+}
+.btn-default:active, 
+.btn-default.active, 
+.open .dropdown-toggle.btn-default {
+    background-color: #EBEBEB;
+    border-bottom-color: #ADADAD;
+    border-top-color: #ADADAD;
+    color: #333333;
+}
+.btn:active, 
+.btn.active {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.btn-success {
+    color: #FFFFFF;
+    text-shadow: none;
+    /* Prevent inheritence from `body` */
+    background-color: #f45c84;
+    /*light red forte*/
+    border: 1px solid #f45c84;
+}
+.btn-success:hover,
+.btn-success:focus {
+    color: #141e32;
+    outline: none;
+    text-shadow: none;
+    background-color: #fa3065;
+    /*light red vivid*/
+    border: 1px solid #fa3065;
+}
+.btn-success:active, 
+.btn-success.active, 
+.open .dropdown-toggle.btn-success {
+    background-color: #EBEBEB;
+    border-bottom-color: #ADADAD;
+    border-top-color: #ADADAD;
+    color: #333333;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+    background-color: #141e32;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+footer p {
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+footer > div > div > div > ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+}
+footer > div > div > div > ul > li {
+    display: inline-block;
+}
+footer > div > div > div > ul > li > a {
+    color: #7D7B7B;
+    /*Gris*/
+}
+footer > div > div > div > ul > li > a:hover {
+    color: #ED2A7B ;/*Rose vivid*/
+}
