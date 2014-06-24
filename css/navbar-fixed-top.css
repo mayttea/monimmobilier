@@ -9,18 +9,18 @@ body {
 }
 
 .navbarLogo {
-    background-image: url(../img/logo/logoMonimmobilier.jpg);
+    background-image: url(../img/logo/logoMonimmobilier.png);
     padding: 0px 66px 0px 66px;
 }
 
 .navbar-default {
-    background-color: #141e32 ;
-    border-top-color: #141e32;
+    background-color: #253746 ;
+    border-top-color: #253746;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: #E7E7E7;
-    color: #141e32;
+    color: #253746;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -28,12 +28,12 @@ body {
     color: #ED2A7B ;/*Rose vivid*/
 }
 .navbar-default .navbar-nav > li > a {
-    color: #7D7B7B;/*Gris*/
+    color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #141e32;
-    color: #ED2A7B;
+    background-color: #253746;
+    color: #FFFFFF;
 }
 
 .dropdown-menu {

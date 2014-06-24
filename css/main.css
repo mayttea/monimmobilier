@@ -18,14 +18,13 @@ body {
     color: #4C4A4A;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 12pt;
-    margin-bottom: 60px;
 }
 .domain {
     color:#ED2A7B;
 }
 .brand {
     padding: 10px 0px;
-    color: #141e32;
+    color: #253746;
 }
 
 /* ==========================================================================
@@ -40,7 +39,7 @@ body {
     background-color: #E7E7E7;
 }
 .panel-resultat > .panel-body:hover {
-    background-color: #141e32;
+    background-color: #253746;
 }
 .panel-resultat > .panel-body > p {
     text-align: center;
@@ -50,14 +49,14 @@ body {
 
 /*panel-resultat*/
 .panel-resultat {
-    border-color: #141e32;
+    border-color: #253746;
 }
 .panel-resultat > .panel-heading {
-    background-image: linear-gradient(to bottom, #141e32 0px, #141e32 100%);
+    background-image: linear-gradient(to bottom, #253746 0px, #253746 100%);
     background-repeat: repeat-x;
-    background-color: #141e32;
-    border-bottom-color: #141e32;
-    border-top-color: #141e32;
+    background-color: #253746;
+    border-bottom-color: #253746;
+    border-top-color: #253746;
     color: #FFFFFF;
 }
 .panel-adresseL1 {
@@ -86,7 +85,7 @@ body {
     text-align: center;
 }
 .pagination > li > a, .pagination > li > span {
-    color: #141e32;
+    color: #253746;
 }
 .pagination > li > a:hover, .pagination > li > span:hover {
     color: #ED2A7B;
@@ -109,7 +108,7 @@ body {
    ========================================================================== */
 
 .detailsHeader{
-    background-color: #141e32;
+    background-color: #253746;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: #E6E7E8;
@@ -142,7 +141,7 @@ body {
 .detailsBody h1{
     text-align: center;
     padding: 10px 0px;
-    color: #141e32;
+    color: #253746;
 }
 .sidebar{
     background-color: #ccc;
@@ -248,7 +247,7 @@ body {
     list-style: none;
 }
 .panel-acheter > .panel-body:hover, .panel-vendre > .panel-body:hover, .panel-apropos > .panel-body:hover {
-    background-color: #141e32;
+    background-color: #253746;
     color: #7D7B7B;
 }
 .panel-body > ul > li > a:link {
@@ -268,7 +267,7 @@ body {
     color: inherit;
 }
 .panel-acheter > .panel-body > ul:hover, .panel-vendre > .panel-body > ul:hover, .panel-apropos > .panel-body > ul:hover {
-    background-color: #141e32;
+    background-color: #253746;
 }
 
 /*panel-acheter*/
@@ -367,7 +366,7 @@ body {
 .carousel-caption {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #141e32;
+    background-color: #253746;
     /*Fall back*/
     background-color: rgba(11, 21, 31, 0.75);
     /*Changer pour blue*/
@@ -421,8 +420,8 @@ body {
 
  #recherche {
     padding: 10px 0px;
-    background-color: #141e32;
-    color: #7D7B7B;
+    background-color: #253746;
+    color: #FFFFFF;
 }
 #lancerRecherche {
     margin: 10px 0px;
@@ -441,7 +440,7 @@ body {
 }
 .btn-default:hover,
 .btn-default:focus {
-    color: #141e32;
+    color: #253746;
     outline: none;
     text-shadow: none;
     background-color: #1FE8FF;
@@ -474,7 +473,7 @@ body {
 }
 .btn-success:hover,
 .btn-success:focus {
-    color: #141e32;
+    color: #253746;
     outline: none;
     text-shadow: none;
     background-color: #fa3065;
@@ -493,41 +492,55 @@ body {
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-
+@media all and (max-width: 768px) {
+    /*uniquement pour les appareils mobiles*/
+    footer {
+        text-align: center;
+    }
+}
 footer {
-    background-color: #141e32;
+    background-color: #253746;
     bottom: 0;
+    color:  #9E9E9E;
     left: 0;
     right: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     font-size: 14px;
     margin: 0px;
-    padding: 5px 0px;
+    padding: 5px 0px 0px 0px;
+}
+footer h1{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 10px 0px;
 }
 footer p {
-    line-height: 15px;
     margin: 0px;
     padding: 0px;
-    text-align: center;
 }
 footer ul {
     margin: 0px;
     padding: 0px;
 }
-footer > div > div > div > ul {
+footer ul {
     list-style-image: none;
     list-style-position: outside;
     list-style-type: none;
-    text-align: center;
 }
 footer > div > div > div > ul > li {
     display: inline-block;
 }
-footer > div > div > div > ul > li > a {
-    color: #7D7B7B;
+footer  a {
+    color: #9E9E9E;
     /*Gris*/
 }
-footer > div > div > div > ul > li > a:hover {
+footer a:hover {
     color: #ED2A7B ;/*Rose vivid*/
+    text-decoration: none;
+}
+#copyright{
+    text-align: center;
+    padding: 10px 0px;
 }

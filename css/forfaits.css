@@ -1,0 +1,142 @@
+/*Source et references*/
+/*http://bootsnipp.com*/
+.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:bold}.multiselect-container>li>label.multiselect-group{margin:0;padding:3px 20px 3px 10px;height:100%;font-weight:bold;}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:normal}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type="checkbox"]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}
+	
+
+
+
+	/*Source et references*/
+	/*http://bootsnipp.com*/
+    .row {
+        margin-bottom: 20px;
+    }
+
+
+    .couleur_menu{
+        background-color:rgb(180, 224, 52);
+        border-radius: 10px;
+    }
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+	
+	/*ajuster la section */
+     .addtocart{
+       margin-top: -5px;
+    }
+
+	/*Definir la taille du icon */
+    .addtocart img{
+        width: 150px;
+        height: 50px;
+    }
+	
+	/*ajouter un bordure pour faire resortir cette section */
+    .bordure1{
+        border-radius: 10px;
+        border-bottom:3px solid #000000;
+        width:auto;
+    }
+
+    .espace{
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+	
+	/*ajuster la taille du texte */
+    .callaction h1{
+        font-size: 18px;
+    }
+
+    /*Centrer le contenu et donner un petit effet*/
+    .emphase{
+        background-color: #425563;
+        padding: 5px 5px 5px 5px;
+        border-radius: 10px;
+        height: auto;
+        box-shadow: 2px 4px 4px #000000;
+        margin: 20px 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    /*Centrer le contenu et donner un petit effet*/
+    .emphase2{
+        background-color: #4C4A4A;
+        padding: 5px 5px 5px 5px;
+        border-radius: 10px;
+        height: auto;
+        box-shadow: 2px 4px 4px #000000;
+        margin: 20px 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /*Donner un petit effet*/
+    .emphase1{
+       border: 1px solid black;
+       border-radius: 10px;
+    }
+
+    /*Faire ressortir le titre*/
+    .emphase1>h4{
+        background-color: rgba(244, 244, 244, 0.87);
+    }
+
+.callaction{
+    background-color: #9E9E9E;
+    color: #253746;
+    padding: 5px 0px 0px 0px;
+    height: 100px;
+    text-align: center;
+}
+.cta-text {
+    text-align: center;
+}
+.box {
+    margin: 20px;
+}
+.box-blanc{
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 2px;
+    padding: 20px 20px 30px;
+}
+.box-blanc h4{
+    padding: 3px 0px;
+    color: #000000;
+}
