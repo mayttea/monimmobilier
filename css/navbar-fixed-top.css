@@ -39,3 +39,19 @@ body {
 .dropdown-menu {
     background-color: #E7E7E7;
 }
+.divCreerCompte {
+    padding: 0px 0px 0px 5px;
+}
+.divCreerCompte > a{
+    color: #FFFFFF;
+}
+.divCreerCompte:hover > a{
+    color: #ED2A7B;
+    text-decoration: none;
+}
+.divCreerCompte > a > p{
+    font-size: 8pt;
+    line-height: 15px;
+    padding: 0px;
+    margin: 0px;
+}
