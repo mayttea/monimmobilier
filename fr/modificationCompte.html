@@ -1,0 +1,373 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="Dans le secteur de l’immobilier en leur offrant un portail de l’immobilier qui leur permet de publier leurs produits et services." />
+    <meta name="keywords" content="mon immobilier" />
+    <meta name="author" content="Mehdi Ghazisaeedi" />
+    <meta name="author" content="Alexandre Lacerte" />
+    <link href="img/ico/favicon.ico" rel="shortcut icon">
+
+    <title>monimmobilier - Modification: Compte</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../css/navbar-fixed-top.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Chargement police Lato  -->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Chargement font-awesome  -->
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- nav -->
+    <div role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../fr/accueil.html" class="navbar-brand navbarLogo"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../fr/accueil.html">
+                            <span class="glyphicon glyphicon-home"></span>
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+                <form action="../espaceAgence/index.html" class="navbar-form navbar-left" role="form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Courriel" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Mot de passe" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Connexion</button>
+                    <div class="form-group divCreerCompte"><a href="../fr/creationcompte.html"><p>Créer un</p><p>compte</p></a></div>
+                </form>
+                
+                <nav>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Acheter
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Résidentielle</a>
+                                </li>
+                                <li>
+                                    <a href="#">Commerciale</a>
+                                </li>
+                                <li>
+                                    <a href="#">Multi logement</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terrain</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ferme</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Vendre
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Notre offre</a>
+                                </li>
+                                <li>
+                                    <a href="#">Inscrivez votre propriété</a>
+                                </li>
+                                <li>
+                                    <a href="#">Devenir un courtier</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../fr/forfaits.html">Nos Forfaits</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--/nav -->
+
+<!-- contenu de la page-->
+    <article class="container well">
+        <!-- contient le modification du compte -->
+            <h1 class="brand">Modification d'infomation du compte</h1>
+                <form class="form-horizontal" role="form">     
+                    <!-- article qui contiendra le nom--> 
+                    <article class="form-group ">
+                        <label for="inputNom" class="col-sm-2 control-label">Nom: </label>
+                        <section class="col-sm-4">
+                            <input type="text" class="form-control" id="inputNom" placeholder="Votre Nom" required>
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra le prenom-->    
+                    <article class="form-group">
+                        <label for="inputPrenom" class="col-sm-2 control-label">Prenom: </label>
+                        <section class="col-sm-4">
+                            <input type="text" class="form-control" id="inputPrenom" placeholder="Votre Prenom">
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra le mot de passe--> 
+                    <article class="form-group ">
+                        <label for="inputMP" class="col-sm-2 control-label">Mot de passe: </label>
+                        <section class="col-sm-4">
+                            <input type="text" class="form-control" id="inputMP" placeholder="Mot de passe" required>
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra la confirmation de mot de passe--> 
+                    <article class="form-group ">
+                        <label for="inputCMP" class="col-sm-2 control-label">Confirmation Mot de passe: </label>
+                        <section class="col-sm-4">
+                            <input type="text" class="form-control" id="inputCMP" placeholder="Confirmation Mot de passe" required>
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra les radion bouton de sexe-->    
+                    <article class="form-group">
+                        <label for="inputSexe" class="col-sm-2 control-label">Sexe: </label>
+                        <section class="col-sm-6"> 
+                            <section class="col-md-3">
+                                <label for="inputSexeH" class="control-label">Homme </label>
+                                <input type="radio" name="sexe" id="homme" value="homme" checked>   
+                            </section>
+                            <section class="col-md-3">
+                                <label for="inputSexeF" class="control-label">Femme </label>
+                                <input type="radio" name="sexe" id="femme" value="femme">   
+                            </section>
+                            <section class="col-md-3">
+                                <label for="inputSexeA" class="control-label">Autre </label>
+                                <input type="radio" name="sexe" id="autre" value="autre">   
+                            </section>
+
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra la date de naissance-->    
+                    <article class="form-group">
+                        <label for="inputDoB" class="col-sm-2 control-label">Date de naissance: </label>
+                        <section class="col-sm-4">
+                            <input type="date" class="form-control" id="inputDoB" placeholder="Votre date de naissance">
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra le courriel-->    
+                    <article class="form-group">
+                        <label for="inputCourriel" class="col-sm-2 control-label">Courriel: </label>
+                        <section class="col-sm-4">
+                            <input type="email" class="form-control" id="inputCourriel" placeholder="Votre courriel">
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra votre nom de Ville-->    
+                    <article class="form-group">
+                        <label for="inputNomVille" class="col-sm-2 control-label">Nom de Ville: </label>
+                        <section class="col-sm-4">
+                            <input type="text" class="form-control" id="inputNomVille" placeholder="Votre nom de ville">
+                        </section>
+                    </article>
+
+                    <!-- article qui contiendra votre nom de Province-->    
+                    <article class="form-group">
+                        <label for="inputNomProvince" class="col-sm-2 control-label">Nom de Province: </label>
+                        <section class="col-sm-4">
+                            <select class="form-control">
+                                <option>Ontario</option>
+                                <option>Québec</option>
+                                <option>Nouvelle-Écosse</option>
+                                <option>Manitoba</option>
+                                <option>Colombie-Britannique</option>
+                                <option>Île-du-Prince-Édouard</option>
+                                <option>Saskatchewan</option>
+                                <option>Alberta</option>
+                                <option>Terre-Neuve-et-Labrador</option>
+                                <option>Nouveau-Brunswick</option>
+                            </select>
+                        </section>
+                    </article>
+
+                    <article class="form-group">
+                        <section class="col-sm-offset-2 col-sm-10">
+                            <button type="button" onClick="location.href='choixForfais.html'" class="btn btn-success"><span class="glyphicon glyphicon-pencil"></span> Confirmer</button>
+                        </section>
+                    </article>  
+                </form>       
+    </article>
+
+    <!--Debut du footer-->
+    <footer>
+        <div class="container">
+            <!--Debut de la section class container-->
+            <div class="row">
+                <!--Debut du row pour le footer-->
+                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <!--Debut de la premiere colonne Mon Immobilier et les coordonnees-->
+                    <h1>Mon Immobilier</h1>
+                    <!--Adresse et lien vers google maps-->
+                    <a href="https://www.google.ca/maps/preview?source=newuser-ws">
+                        <p>1910, Rue du Centre</p>
+                        <p>Montréal</p>
+                        <p>Quebec H3k 1h9</p>
+                    </a>
+                    <p>
+                        <i>
+                            <span class="glyphicon glyphicon-earphone"></span> (514) 649-1630</i>
+                    </p>
+                    <p>
+                        <i>
+                            <span class="glyphicon glyphicon-envelope"></span> admin@moimmobilier.ca</i>
+                    </p>
+
+                </article>
+                <!--Fin de la premiere colonne Mon Immobilier et les coordonnees-->
+
+                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <!--Debut de la deuxieme colonne pages-->
+                    <h1>Pages</h1>
+                    <ul>
+                        <li>
+                            <a href="#">À Propos</a>
+                        </li>
+                        <li>
+                            <a href="../Blog/index.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Termes et conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Politique de confidentialité</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </article>
+                <!--Fin de la deuxieme colonne pages-->
+
+                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <!--Debut de la troisieme colonne des dernieres publications-->
+                    <h1>Dernières publications</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Renover Sa Maison</a>
+                        </li>
+                        <li>
+                            <a href="#"></a>Decorer son Chez Soi</li>
+                        <li>
+                            <a href="#">Utiliser Paypal</a>
+                        </li>
+                        <li>
+                            <a href="#">Guide Pour Louer un Bien</a>
+                        </li>
+                        <li>
+                            <a href="#">La satisfaction de nos clients</a>
+                        </li>
+                    </ul>
+                </article>
+                <!--Fin de la troisieme colonne des dernieres publications-->
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <!--Debut de la quatrieme colonne des flickrs-->
+                    <h1>Suivez-Nous!</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Fin de la quatrieme colonne des flickrs-->
+            </div>
+            <!--Fin du row pour le footer-->
+        </div>
+        <!--Fin de la section class container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p id="copyright">monimmobilier.ca © 2014 Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--Fin du footer-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- Activation de carousel -->
+    <script src="js/carousel.js"></script>
+
+</body>
+
+</html>
+
